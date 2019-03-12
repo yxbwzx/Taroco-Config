@@ -5,11 +5,13 @@ base:
   auth:
     server: http://localhost:9001
   mysql:
-    url: jdbc:mysql://localhost:3306
+    #url: jdbc:mysql://localhost:3306
+    url: jdbc:mysql://SD-IBM-SERVER:3306
   redis:
-    host: 127.0.0.1
+    #host: 127.0.0.1
+    host: SD-IBM-SERVER
     port: 6379
-    password: hyman
+    password: dev
   zipkin:
     url: http://111.231.192.110:10003/
 
