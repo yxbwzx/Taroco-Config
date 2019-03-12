@@ -4,8 +4,8 @@
 spring:
   datasource:
     url: ${base.mysql.url}/taroco-oauth2?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
-    username: root
-    password: root
+    username: admin
+    password: dev
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
       minimum-idle: 5
