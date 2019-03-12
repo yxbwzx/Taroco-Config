@@ -40,6 +40,7 @@ taroco:
       secret: taroco!@#$
       alias: taroco
     url-permit-all:
+      - /portal/**
       - /actuator/**
       - /authentication/**
       - /**/*.css
