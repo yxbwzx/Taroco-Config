@@ -48,6 +48,9 @@ taroco:
   oauth2:
     url-permit-all:
       - /portal/**
+      - /portal1/**
+      - /portal2/**
+      - /portal3/**
       - /actuator/**
       - /mobile/**
       - /auth/**

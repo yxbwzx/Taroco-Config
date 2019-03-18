@@ -41,6 +41,9 @@ taroco:
       alias: taroco
     url-permit-all:
       - /portal/**
+      - /portal1/**
+      - /portal2/**
+      - /portal3/**
       - /actuator/**
       - /authentication/**
       - /**/*.css
